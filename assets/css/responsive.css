@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1000px) {
+
+    .texto-slogan-arriba {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+
+    .logo-nombre {
+        display: none;
+    }
+
+
+    .menu {
+        margin-right: 0px;
+    }
+
+    .texto-2 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .texto-2-flex {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;  
+    }
+
+    .grid-container {
+        margin-left: 11px;
+        margin-right: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .mapa {
+        padding-top: 50px;
+        height: 200px;
+        width: auto;
+    }
+}

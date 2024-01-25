@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Archia:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background-color: #17171b;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Archia', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+.texto-slogan-arriba {
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.texto-slogan-arriba a {
+    color: #ad2817;
+    font-weight: 900;
+}
+
+.slogan-arriba {
+    width: 100%;
+    background-color: #212121;
+    color: #fff;
+    border-bottom: 3px solid #3a3636;
+}
+
+.logo-menu-arriba {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.menu-de-control {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.logo-nombre {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.logo-nombre h1 {
+    margin: 0;
+    color: #ad2817;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    margin-right: 100px;
+    font-weight: 700;
+}
+
+
+.grid-container {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    height: 170px;
+    width: 350px;
+    background-color: #212121;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.grid-item h3 {
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.texto-2-flex {
+    padding-top: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.texto-2 h1 {
+    margin-top: 100px;
+    color: #ad2817;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.texto-2 h2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.texto-2 p {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Archia', sans-serif;
+    letter-spacing: 2px;
+    margin: 0 15px;
+}
+
+
+.mapa {
+    padding-top: 50px;
+    height: 300px;
+    width: auto;
+}
+
+
+
+
+
+
+footer {
+    margin-top: 100px;
+    background-color: #212121;
+    width: 100%;
+    height: 50px;
+    border-top: 3px solid #3a3636;
+}
