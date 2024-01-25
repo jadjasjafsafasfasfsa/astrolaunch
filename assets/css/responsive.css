@@ -29,14 +29,6 @@
         padding-right: 10px;  
     }
 
-    .grid-container {
-        margin-left: 11px;
-        margin-right: 0px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
-    }
-
     .mapa {
         padding-top: 50px;
         height: 200px;
