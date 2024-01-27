@@ -110,6 +110,22 @@ nav a:hover {
     border: 3px solid #3a3636;
 }
 
+.grid-item-2{
+    height: 140px;
+    width: 350px;
+    background-color: #212121;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 3px solid #3a3636;
+}
+
+.grid-item-2 h3 {
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+
 .grid-item h3 {
     letter-spacing: 1px;
     font-size: 20px;
@@ -118,6 +134,10 @@ nav a:hover {
 
 
 
+.grid-item-2 a {
+    color: #ad2817;
+    font-weight: 900;
+}
 
 
 
