@@ -111,29 +111,59 @@
         <div class="grid-container">
 
             <div class="grid-item-2">
-                <h3><i class="fa-brands fa-js" style="color: #f7e018"></i> JavaScript</h3>
+                <div onclick="showInfo(`JavaScript\nhttps://www.javascript.com/`)"><h3><i class="fa-brands fa-js" style="color: #f7e018"></i></h3></div>
                 <p>Starting at $1.00/mo</p>
                 <br>
-                <a href="https://client.astrolaunch.xyz">SHOW PLANS</a>
+                <a href="https://client.astrolaunch.xyz/javascript">SHOW PLANS</a>
             </div>
 
 
             <div class="grid-item-2">
-                <h3><i class="fa-brands fa-python" style="color: #326f9f"></i> Python</h3>
+                <div onclick="showInfo(`Python\nhttps://www.python.org/`)"><h3><i class="fa-brands fa-python" style="color: #326f9f"></i></h3></div>
                 <p>Starting at $1.00/mo</p>
                 <br>
-                <a href="https://client.astrolaunch.xyz">SHOW PLANS</a>
+                <a href="https://client.astrolaunch.xyz/python">SHOW PLANS</a>
             </div>
 
 
             <div class="grid-item-2">
-                <h3><i class="fa-brands fa-java" style="color: #f89a16"></i> Java</h3>
+                <div onclick="showInfo(`Java\nhttps://www.java.com/es/`)"><h3><i class="fa-brands fa-java" style="color: #f89a16"></i></h3></div>
                 <p>Starting at $1.00/mo</p>
                 <br>
-                <a href="https://client.astrolaunch.xyz">SHOW PLANS</a>
+                <a href="https://client.astrolaunch.xyz/java">SHOW PLANS</a>
+            </div>
+
+            
+        </div>
+
+
+
+        <div class="grid-container">
+
+            <div class="grid-item-2">
+                <div onclick="showInfo(`Go\nhttps://go.dev/`)"><h3><i class="fa-brands fa-golang" style="color: #00aed8"></i></h3></div>
+                <p>Starting at $1.00/mo</p>
+                <br>
+                <a href="https://client.astrolaunch.xyz/go">SHOW PLANS</a>
             </div>
 
 
+            <div class="grid-item-2">
+                <div onclick="showInfo(`Rust\nhttps://www.rust-lang.org/`)"><h3><i class="fa-brands fa-rust" style="color: #ffffff"></i></h3></div>
+                <p>Starting at $1.00/mo</p>
+                <br>
+                <a href="https://client.astrolaunch.xyz/rust">SHOW PLANS</a>
+            </div>
+
+
+            <div class="grid-item-2">
+                <div onclick="showInfo(`C#\nhttps://learn.microsoft.com/en-en/dotnet/csharp/`)"><h3><i class="fa-solid fa-c" style="color: #a179dc"></i></h3></div>
+                <p>Starting at $1.00/mo</p>
+                <br>
+                <a href="https://client.astrolaunch.xyz/csharp">SHOW PLANS</a>
+            </div>
+
+            
         </div>
     </div>
 
@@ -177,6 +207,11 @@
         <p><b>Copyright &copy; 2024</b> AstroLaunch S.L</p>
     </footer>
     
+    <script>
+        function showInfo(info) {
+            alert(info);
+        }
+    </script>
 
 </body>
 
