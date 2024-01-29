@@ -93,8 +93,8 @@
     <div class="texto-2">
         <h1>WE PROVIDE LOCATIONS WORLDWIDE</h1>
         <div class="texto-2-flex">
-            <p>Montevideo, Uruguay<br>135ms est.</p>
-            <p>Virginia, United States<br>24ms est.</p>
+            <p><b>Montevideo, Uruguay</b><br> <span id="montevideo">135</span>ms</p>
+            <p><b>Virginia, United States</b><br> <span id="virginia">24</span>ms</p>
         </div>
 
         <img src="assets/imgs/map.png" class="mapa" alt="Logo del hosting">
@@ -111,7 +111,7 @@
         <div class="grid-container">
 
             <div class="grid-item-2">
-                <div onclick="showInfo(`JavaScript\nhttps://www.javascript.com/`)"><h3><i class="fa-brands fa-js" style="color: #f7e018"></i></h3></div>
+                <div onclick="showInfo(`JavaScript\nhttps://developer.mozilla.org/es/docs/Web/JavaScript`)"><h3><i class="fa-brands fa-js" style="color: #f7e018"></i></h3></div>
                 <p>Starting at $1.00/mo</p>
                 <br>
                 <a href="https://client.astrolaunch.xyz/javascript">SHOW PLANS</a>
@@ -207,11 +207,8 @@
         <p><b>Copyright &copy; 2024</b> AstroLaunch S.L</p>
     </footer>
     
-    <script>
-        function showInfo(info) {
-            alert(info);
-        }
-    </script>
+<script src="assets/js/est_ping.js"></script>
+<script src="assets/js/alert.js"></script>
 
 </body>
 

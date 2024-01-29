@@ -34,4 +34,14 @@
         height: 200px;
         width: auto;
     }
+
+    .slogan-arriba {
+        top: auto;
+        position: relative;
+    }
+
+    .menu-de-control {
+        padding-top: 0px;
+    }
+
 }
