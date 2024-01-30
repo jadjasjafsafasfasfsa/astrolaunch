@@ -74,6 +74,12 @@ body {
     color: #ad2817;
 }
 
+.logo-nombre a {
+    margin: 0;
+    color: #ad2817;
+    text-decoration: none;
+}
+
 nav {
     display: flex;
 }
