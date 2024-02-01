@@ -7,7 +7,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-family: 'Archia', sans-serif;
+    font-family:  'Poppins', sans-serif;
     font-weight: 100;
     font-size: 14px;
     letter-spacing: 1px;
@@ -113,7 +113,7 @@ nav a:hover {
     height: 170px;
     width: 350px;
     background-color: #212121;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     letter-spacing: 2px;
     border: 3px solid #3a3636;
@@ -123,7 +123,7 @@ nav a:hover {
     height: 180px;
     width: 350px;
     background-color: #212121;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     letter-spacing: 2px;
     border: 3px solid #3a3636;
@@ -156,7 +156,7 @@ nav a:hover {
     height: 205px;
     width: 350px;
     background-color: #212121;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     letter-spacing: 2px;
     border: 3px solid #3a3636;
@@ -198,7 +198,6 @@ nav a:hover {
 .texto-2 p {
     color: #fff;
     font-size: 15px;
-    font-family: 'Archia', sans-serif;
     letter-spacing: 2px;
     margin: 0 15px;
 }
@@ -209,9 +208,6 @@ nav a:hover {
     height: 300px;
     width: auto;
 }
-
-
-
 
 
 
